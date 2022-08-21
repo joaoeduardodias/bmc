@@ -5,6 +5,11 @@ export const theme = extendTheme({
     heading: 'Nunito',
     body: 'Nunito',
   },
+  colors: {
+    blue: {
+      '700': '#02239F',
+    },
+  },
   styles: {
     global: {
       body: {
