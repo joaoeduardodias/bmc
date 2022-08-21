@@ -2,6 +2,11 @@
   "name": "boilerplate",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "João Dias",
+    "email": "joaoeduardodias123@gmail.com",
+    "url": "https://devjoaodias.com.br"
+  },
   "scripts": {
     "prepare": "husky install",
     "commit": "git-cz",
@@ -10,6 +15,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.2.8",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "framer-motion": "^7.2.0",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -28,6 +37,8 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "12.2.5",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-jest-dom": "^3.9.2",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-import-helpers": "^1.2.1",
     "eslint-plugin-jest": "^26.8.2",
