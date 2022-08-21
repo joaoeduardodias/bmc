@@ -11,7 +11,7 @@ export function Header(): JSX.Element {
       justify="center"
     >
       <Image
-        src="logo.svg"
+        src="/logo.svg"
         alt="Logo, BMC brinquedos"
         objectFit="cover"
         w={['120px', '130px', '140px', '150px']}

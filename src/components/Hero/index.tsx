@@ -32,7 +32,7 @@ export function Hero(): JSX.Element {
       </GridItem>
       <GridItem area="images">
         <Image
-          src="madeiras.svg"
+          src="/madeiras.svg"
           alt="Madeiras usadas para construir os nossos brinquedos"
         />
       </GridItem>

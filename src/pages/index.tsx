@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 
 import { Header } from '../components/Header'
 import { Hero } from '../components/Hero'
+import { SectionProducts } from '../components/SectionProducts'
 import { Slide } from '../components/Slide'
 
 const Home: NextPage = () => (
@@ -14,11 +15,12 @@ const Home: NextPage = () => (
       mx="auto"
       pt="5rem"
       direction="column"
-      mb="20rem"
+      mb="2rem"
     >
       <Hero />
       <Slide />
     </Flex>
+    <SectionProducts />
   </>
 )
 
