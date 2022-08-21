@@ -9,6 +9,9 @@ export const theme = extendTheme({
     blue: {
       '700': '#02239F',
     },
+    teal: {
+      '900': '#001620',
+    },
   },
   styles: {
     global: {

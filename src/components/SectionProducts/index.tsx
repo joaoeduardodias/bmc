@@ -13,7 +13,7 @@ export function SectionProducts(): JSX.Element {
         <Divider border="1px" borderColor="black" />
       </Flex>
       <Grid
-        mb="20rem"
+        mb="4rem"
         mt="5rem"
         w="100%"
         maxW="1140px"
