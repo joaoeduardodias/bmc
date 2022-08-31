@@ -36,7 +36,11 @@ export function Product({
         borderColor="teal.300"
         borderTop="0"
       >
-        <Flex direction="column">
+        <Flex
+          direction="column"
+          w="100%"
+          align={['center', 'center', 'center', 'initial']}
+        >
           <Heading fontSize="xl" fontWeight="500">
             {title}
           </Heading>
@@ -51,6 +55,7 @@ export function Product({
             _hover={{ bg: 'teal.400' }}
             transition="0.5s"
             mt="4"
+            w="100%"
           >
             Comprar
           </Button>

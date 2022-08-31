@@ -8,7 +8,7 @@ export function Slide(): JSX.Element {
   return (
     <Flex
       mt="5rem"
-      w={['95%', '95%', '95%', '100%']}
+      w={['95%', '95%', '95%', '95%', '100%']}
       h={['20rem', '27rem', '35rem']}
       mx="auto"
     >

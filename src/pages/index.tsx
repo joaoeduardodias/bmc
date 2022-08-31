@@ -22,7 +22,7 @@ const Home: NextPage = () => (
     </Flex>
     <Flex w="100%" align="center" justify="center" mt="5rem">
       <Divider border="1px" borderColor="black" />
-      <Heading fontSize="3xl" w="56%" textAlign="center">
+      <Heading fontSize={['xl', '3xl']} w={['100%', '56%']} textAlign="center">
         Principais Produtos
       </Heading>
       <Divider border="1px" borderColor="black" />

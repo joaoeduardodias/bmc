@@ -7,7 +7,7 @@ export function SectionProducts(): JSX.Element {
     <Grid
       mb="4rem"
       mt="5rem"
-      w="100%"
+      w={['90%', '90%', '90%', '95%', '100%']}
       maxW="1140px"
       mx="auto"
       templateColumns={['1fr', '1fr 1fr', 'repeat(3,1fr)', 'repeat(4,1fr)']}
