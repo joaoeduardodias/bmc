@@ -1,7 +1,6 @@
-import { Flex } from '@chakra-ui/react'
+import { Divider, Flex, Heading } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 
-import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { Hero } from '../components/Hero'
 import { SectionProducts } from '../components/SectionProducts'
@@ -21,8 +20,15 @@ const Home: NextPage = () => (
       <Hero />
       <Slide />
     </Flex>
+    <Flex w="100%" align="center" justify="center" mt="5rem">
+      <Divider border="1px" borderColor="black" />
+      <Heading fontSize="3xl" w="56%" textAlign="center">
+        Principais Produtos
+      </Heading>
+      <Divider border="1px" borderColor="black" />
+    </Flex>
     <SectionProducts />
-    <Footer />
+    {/* <Footer /> */}
   </>
 )
 

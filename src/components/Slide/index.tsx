@@ -1,5 +1,4 @@
 import { Flex, Heading, Text } from '@chakra-ui/react'
-import Link from 'next/link'
 import SwiperCore, { A11y, Navigation, Pagination, Scrollbar } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
@@ -37,23 +36,19 @@ export function Slide(): JSX.Element {
             textAlign="center"
             color="white"
           >
-            <Link passHref href="/line/farm">
-              <a>
-                <Heading fontSize={['3xl', '4xl', '5xl']} fontWeight="bold">
-                  Linha Rural
-                </Heading>
-                <Text
-                  w="45rem"
-                  fontWeight="bold"
-                  fontSize={['0.8rem', '1xl', '1.3rem']}
-                  mt={['2', '4']}
-                >
-                  Na nossa linha rural, nós temos currais e fazendinhas de
-                  vários estilos e tamanhos, temos os modelos prontos e também
-                  construímos sob encomenda do seu gosto.
-                </Text>
-              </a>
-            </Link>
+            <Heading fontSize={['3xl', '4xl', '5xl']} fontWeight="bold">
+              Linha Rural
+            </Heading>
+            <Text
+              w="45rem"
+              fontWeight="bold"
+              fontSize={['0.8rem', '1xl', '1.3rem']}
+              mt={['2', '4']}
+            >
+              Na nossa linha rural, nós temos currais e fazendinhas de vários
+              estilos e tamanhos, temos os modelos prontos e também construímos
+              sob encomenda do seu gosto.
+            </Text>
           </Flex>
         </SwiperSlide>
 
@@ -71,23 +66,21 @@ export function Slide(): JSX.Element {
             textAlign="center"
             color="white"
           >
-            <Link passHref href="/line/farm">
-              <a>
-                <Heading fontSize={['3xl', '4xl', '5xl']} fontWeight="bold">
-                  Linha Rural
-                </Heading>
-                <Text
-                  w="45rem"
-                  fontWeight="bold"
-                  fontSize={['0.8rem', '1xl', '1.3rem']}
-                  mt={['2', '4']}
-                >
-                  Na nossa linha rural, nós temos currais e fazendinhas de
-                  vários estilos e tamanhos, temos os modelos prontos e também
-                  construímos sob encomenda do seu gosto.
-                </Text>
-              </a>
-            </Link>
+            <a>
+              <Heading fontSize={['3xl', '4xl', '5xl']} fontWeight="bold">
+                Linha Rural
+              </Heading>
+              <Text
+                w="45rem"
+                fontWeight="bold"
+                fontSize={['0.8rem', '1xl', '1.3rem']}
+                mt={['2', '4']}
+              >
+                Na nossa linha rural, nós temos currais e fazendinhas de vários
+                estilos e tamanhos, temos os modelos prontos e também
+                construímos sob encomenda do seu gosto.
+              </Text>
+            </a>
           </Flex>
         </SwiperSlide>
 
@@ -105,23 +98,21 @@ export function Slide(): JSX.Element {
             textAlign="center"
             color="white"
           >
-            <Link passHref href="/line/farm">
-              <a>
-                <Heading fontSize={['3xl', '4xl', '5xl']} fontWeight="bold">
-                  Linha Rural
-                </Heading>
-                <Text
-                  w="45rem"
-                  fontWeight="bold"
-                  fontSize={['0.8rem', '1xl', '1.3rem']}
-                  mt={['2', '4']}
-                >
-                  Na nossa linha rural, nós temos currais e fazendinhas de
-                  vários estilos e tamanhos, temos os modelos prontos e também
-                  construímos sob encomenda do seu gosto.
-                </Text>
-              </a>
-            </Link>
+            <a>
+              <Heading fontSize={['3xl', '4xl', '5xl']} fontWeight="bold">
+                Linha Rural
+              </Heading>
+              <Text
+                w="45rem"
+                fontWeight="bold"
+                fontSize={['0.8rem', '1xl', '1.3rem']}
+                mt={['2', '4']}
+              >
+                Na nossa linha rural, nós temos currais e fazendinhas de vários
+                estilos e tamanhos, temos os modelos prontos e também
+                construímos sob encomenda do seu gosto.
+              </Text>
+            </a>
           </Flex>
         </SwiperSlide>
       </Swiper>
