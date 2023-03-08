@@ -1,5 +1,6 @@
 import { Divider, Flex, Heading } from '@chakra-ui/react'
 import type { NextPage } from 'next'
+import Head from 'next/head'
 
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
@@ -9,6 +10,10 @@ import { Slide } from '../components/Slide'
 
 const Home: NextPage = () => (
   <>
+    <Head>
+      <title>BMC Brinquedos</title>
+    </Head>
+
     <Header />
     <Flex
       w="100%"
